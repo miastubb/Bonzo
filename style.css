@@ -1,0 +1,88 @@
+body {
+  background-color: aquamarine;
+  margin: 10px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.header-container {
+  background-color: rgb(243, 227, 245);
+  padding: 10px;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  color: black;
+  background-color: rgb(243, 227, 245); /* Set a different background color */
+  padding: 10px;
+  margin-left: 320px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  margin-left: 100px;
+}
+
+.round-image {
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border: 10px solid rgb(243, 227, 245);
+}
+
+.wrap {
+  margin: 2px;
+}
+.menu-container {
+  border: 2px solid black;
+  padding: 20px;
+  background-color: rosybrown;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.menu-box {
+  margin-bottom: 20px;
+}
+.menu-box {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 30px;
+}
+.content-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.image-container {
+  text-align: center;
+}
+.menu-image {
+  max-width: 85%;
+  height: auto;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+font-size: 24px;
+text-decoration: none;
+color: black;
+}
+nav ul li a:hover {
+ text-decoration: underline;
+}
