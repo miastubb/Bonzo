@@ -20,7 +20,7 @@ h1 {
 }
 .tilt {
   display: inline-block;
-  transform: rotate(-10deg); /* Adjust the angle as needed */
+  transform: rotate(-20deg); /* Adjust the angle as needed */
 }
 
 h2 {
