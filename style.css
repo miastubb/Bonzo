@@ -18,6 +18,10 @@ h1 {
   padding: 10px;
   margin-left: 320px;
 }
+.tilt {
+  display: inline-block;
+  transform: rotate(-10deg); /* Adjust the angle as needed */
+}
 
 h2 {
   text-align: center;
