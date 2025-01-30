@@ -87,6 +87,37 @@ font-size: 24px;
 text-decoration: none;
 color: black;
 }
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px; /* Adjust font size for smaller screens */
+  }
+
+  h2 {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+
+  h3 {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  p {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .content-container {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+  }
+
+  nav ul li {
+    display: block; /* Display list items as block elements */
+    margin: 10px 0; /* Add margin for spacing */
+  }
+
+  nav ul li a {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+}
 nav ul li a:hover {
  text-decoration: underline;
 }
